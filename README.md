@@ -19,6 +19,7 @@
   1. [函数/方法](#methods-函数)
   1. [模块生命周期](#ordering-react-模块生命周期)
   1. [isMounted](#ismounted)
+  1. [几个小细节](#几个小细节)
 
 ## Basic Rules 基本规范
 
@@ -678,7 +679,7 @@
 
   [anti-pattern]: https://facebook.github.io/react/blog/2015/12/16/ismounted-antipattern.html
 
-## 具体到模块
+## 几个小细节
 - 使用space代替tab，保持缩进为两个空格，代码更紧凑明快
 - 引入模块依赖，使用ES6的import
 - 引入模块的顺序，先引入系统级别，再引入库级别，然后是我们自己的模块，如：
@@ -800,5 +801,3 @@ cashier git:(KA_shanda_5) tree -L 3
 3 directories, 6 files
 ➜  projectmanager git:(master) ✗
 ```
-
-## 欢迎补充
